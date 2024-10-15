@@ -22,7 +22,7 @@ namespace Modul_5
             using (OpenFileDialog openFileDialog = new OpenFileDialog()) // Вызов нового окна для открытия файла
             {
                 openFileDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp"; // Фильтр только для изображений
-                if (openFileDialog.ShowDialog() == DialogResult.OK) // Если зпавершено с "Ок"
+                if (openFileDialog.ShowDialog() == DialogResult.OK) // Если завершено с "Ок"
                 {
                     originalImage = Image.FromFile(openFileDialog.FileName); // Открытие файла
                     pictureBox1.Invalidate();  // Перерисовка PictureBox

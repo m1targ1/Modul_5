@@ -11,7 +11,7 @@
         {
             OpenFileDialog openFileDialog = new OpenFileDialog // Новое диалоговое окно для открытия файла
             {
-                Filter = "Text Files (*.txt)|*.txt", // Фильтр только для текстовых файлов
+                Filter = "Text Files (*.txt)|*.txt" // Фильтр только для текстовых файлов
             };
 
             // Проверка, был ли выбран файл
@@ -25,7 +25,7 @@
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog // Новое диалоговое окно для сохранения файла
             {
-                Filter = "Text Files (*.txt)|*.txt", // Фильтр только для текстовых файлов
+                Filter = "Text Files (*.txt)|*.txt" // Фильтр только для текстовых файлов
             };
 
             // Проверка, был ли выбран файл
